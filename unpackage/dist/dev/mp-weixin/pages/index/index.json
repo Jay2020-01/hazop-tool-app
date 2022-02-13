@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "main-page": "/pages/mainPage/home/home",
+    "risk": "/pages/risk/risk",
+    "latency": "/pages/latency/latency",
+    "about": "/pages/person/person"
+  }
+}

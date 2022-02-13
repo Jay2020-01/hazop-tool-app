@@ -1,0 +1,1 @@
+<view><camera style="width:100vw;height:100vh;" device-position="back" flash="auto" resolution="high" mode="normal"></camera><button data-event-opts="{{[['tap',[['takePhoto',['$event']]]]]}}" style="border:solid;border-radius:50%;border-width:15rpx;width:150rpx;height:150rpx;bottom:10%;position:absolute;left:50%;margin-left:-75rpx;" bindtap="__e"></button></view>

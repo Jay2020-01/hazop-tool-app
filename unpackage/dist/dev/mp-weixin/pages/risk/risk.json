@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "project": "/pages/risk/project/project",
+    "evaluate": "/pages/risk/evaluate/evaluate",
+    "measure": "/pages/risk/measure/measure"
+  }
+}

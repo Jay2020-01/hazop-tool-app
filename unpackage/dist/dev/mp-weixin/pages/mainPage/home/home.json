@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "company": "/pages/mainPage/company/company",
+    "plant": "/pages/mainPage/plant/plant",
+    "material": "/pages/mainPage/material/material",
+    "risk-point": "/pages/mainPage/riskPoint/riskPoint"
+  }
+}

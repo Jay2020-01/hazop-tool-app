@@ -1,0 +1,157 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-shrink {
+  font-size: 12px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.text-all {
+  font-size: 12px;
+  text-align: center;
+  word-break:break-all;
+}
+.view-column{
+  width:11%;display:inline-block;
+}
+.view-column-all{
+  min-width:11%;display:inline-block;
+} */
+.table {
+    border: 0px solid darkgray;
+    font-size: 12px;
+}
+.tr {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.td {
+    width: 14%;
+    min-height: 2rem;
+    justify-content: center;
+    text-align: center;
+    word-wrap: break-word;
+    flex-shrink: 0;
+    line-height: 2rem;
+}
+.gray {
+    background: white;
+}
+

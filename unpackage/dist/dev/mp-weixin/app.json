@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/mainPage/company/company",
+    "pages/mainPage/plant/hazop_lopa_list/hazop_lopa_list",
+    "pages/mainPage/plant/hazop_worksheet/hazop_worksheet",
+    "pages/mainPage/plant/allMeasureList/allMeasureList",
+    "pages/mainPage/plant/basicInfo/basicInfo",
+    "pages/mainPage/plant/allSILList/allSILList",
+    "pages/mainPage/plant/lopa_worksheet/lopa_worksheet",
+    "pages/mainPage/home/home",
+    "pages/mainPage/company/companyBasicInfo/companyBasicInfo",
+    "pages/mainPage/material/materialBasicInfo/materialBasicInfo",
+    "pages/mainPage/material/material",
+    "pages/mainPage/riskPoint/riskPoint",
+    "pages/mainPage/riskPoint/riskPointBasicInfo/riskPointBasicInfo",
+    "pages/risk/project/project",
+    "pages/risk/project/projectBasicInfo/projectBasicInfo",
+    "pages/form/hazard/hazard",
+    "pages/form/accident/accident",
+    "pages/form/evaluate/evaluate",
+    "pages/form/measure/measure",
+    "pages/form/risk/risk",
+    "pages/risk/evaluate/evaluate",
+    "pages/risk/measure/measure",
+    "pages/person/person",
+    "pages/form/preview/preview",
+    "pages/config/config",
+    "pages/mainPage/plant/plant",
+    "pages/camera/camera",
+    "pages/map/map",
+    "pages/form/latency",
+    "pages/form/latency/latency",
+    "pages/form/latency/solution/solution",
+    "pages/form/latency/result/result",
+    "pages/risk/risk",
+    "pages/latency/latency",
+    "pages/latency/solution/solution",
+    "pages/latency/latency/latency",
+    "pages/latency/result/result",
+    "pages/latency/latency/plan/plan",
+    "pages/latency/latency/add/add",
+    "pages/latency/solution/management/management",
+    "pages/latency/solution/add/add"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于确定所处位置"
+    }
+  },
+  "plugins": {},
+  "usingComponents": {}
+}
