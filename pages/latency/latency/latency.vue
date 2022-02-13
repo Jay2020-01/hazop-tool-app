@@ -37,6 +37,9 @@
                 position: fixed;
                 right: 5%;
                 bottom: 12%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
             "
             @tap="add"
         >

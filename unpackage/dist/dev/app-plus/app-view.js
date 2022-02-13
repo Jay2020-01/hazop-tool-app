@@ -3446,24 +3446,26 @@ var render = function() {
                   }
                 },
                 [
-                  _c(
-                    "v-uni-view",
-                    {
-                      staticClass: _vm._$g("5-" + $30, "sc"),
-                      attrs: { _i: "5-" + $30 }
-                    },
-                    [
-                      _c(
-                        "v-uni-text",
+                  _vm._$g("5-" + $30, "i")
+                    ? _c(
+                        "v-uni-view",
                         {
-                          staticClass: _vm._$g("6-" + $30, "sc"),
-                          attrs: { _i: "6-" + $30 }
+                          staticClass: _vm._$g("5-" + $30, "sc"),
+                          attrs: { _i: "5-" + $30 }
                         },
-                        [_vm._v(_vm._$g("6-" + $30, "t0-0"))]
+                        [
+                          _c(
+                            "v-uni-text",
+                            {
+                              staticClass: _vm._$g("6-" + $30, "sc"),
+                              attrs: { _i: "6-" + $30 }
+                            },
+                            [_vm._v(_vm._$g("6-" + $30, "t0-0"))]
+                          )
+                        ],
+                        1
                       )
-                    ],
-                    1
-                  ),
+                    : _vm._e(),
                   _c(
                     "v-uni-view",
                     {
@@ -3472,30 +3474,32 @@ var render = function() {
                       attrs: { _i: "7-" + $30 }
                     },
                     [
-                      _c(
-                        "v-uni-view",
-                        { attrs: { _i: "8-" + $30 } },
-                        [
-                          _c(
-                            "v-uni-text",
-                            {
-                              staticClass: _vm._$g("9-" + $30, "sc"),
-                              attrs: { _i: "9-" + $30 }
-                            },
-                            [_vm._v("风险点：")]
-                          ),
-                          _c(
-                            "v-uni-text",
-                            {
-                              staticClass: _vm._$g("10-" + $30, "sc"),
-                              staticStyle: { "margin-right": "20rpx" },
-                              attrs: { _i: "10-" + $30 }
-                            },
-                            [_vm._v(_vm._$g("10-" + $30, "t0-0"))]
+                      _vm._$g("8-" + $30, "i")
+                        ? _c(
+                            "v-uni-view",
+                            { attrs: { _i: "8-" + $30 } },
+                            [
+                              _c(
+                                "v-uni-text",
+                                {
+                                  staticClass: _vm._$g("9-" + $30, "sc"),
+                                  attrs: { _i: "9-" + $30 }
+                                },
+                                [_vm._v("风险点：")]
+                              ),
+                              _c(
+                                "v-uni-text",
+                                {
+                                  staticClass: _vm._$g("10-" + $30, "sc"),
+                                  staticStyle: { "margin-right": "20rpx" },
+                                  attrs: { _i: "10-" + $30 }
+                                },
+                                [_vm._v(_vm._$g("10-" + $30, "t0-0"))]
+                              )
+                            ],
+                            1
                           )
-                        ],
-                        1
-                      ),
+                        : _vm._e(),
                       _c(
                         "v-uni-view",
                         { attrs: { _i: "11-" + $30 } },
@@ -3647,7 +3651,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/evaluate/evaluate/evaluate.wxss */\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/evaluate/evaluate/evaluate.wxss */\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -3770,24 +3774,26 @@ var render = function() {
                   }
                 },
                 [
-                  _c(
-                    "v-uni-view",
-                    {
-                      staticClass: _vm._$g("5-" + $30, "sc"),
-                      attrs: { _i: "5-" + $30 }
-                    },
-                    [
-                      _c(
-                        "v-uni-text",
+                  _vm._$g("5-" + $30, "i")
+                    ? _c(
+                        "v-uni-view",
                         {
-                          staticClass: _vm._$g("6-" + $30, "sc"),
-                          attrs: { _i: "6-" + $30 }
+                          staticClass: _vm._$g("5-" + $30, "sc"),
+                          attrs: { _i: "5-" + $30 }
                         },
-                        [_vm._v(_vm._$g("6-" + $30, "t0-0"))]
+                        [
+                          _c(
+                            "v-uni-text",
+                            {
+                              staticClass: _vm._$g("6-" + $30, "sc"),
+                              attrs: { _i: "6-" + $30 }
+                            },
+                            [_vm._v(_vm._$g("6-" + $30, "t0-0"))]
+                          )
+                        ],
+                        1
                       )
-                    ],
-                    1
-                  ),
+                    : _vm._e(),
                   _c(
                     "v-uni-view",
                     {
@@ -3796,30 +3802,32 @@ var render = function() {
                       attrs: { _i: "7-" + $30 }
                     },
                     [
-                      _c(
-                        "v-uni-view",
-                        { attrs: { _i: "8-" + $30 } },
-                        [
-                          _c(
-                            "v-uni-text",
-                            {
-                              staticClass: _vm._$g("9-" + $30, "sc"),
-                              attrs: { _i: "9-" + $30 }
-                            },
-                            [_vm._v("风险点：")]
-                          ),
-                          _c(
-                            "v-uni-text",
-                            {
-                              staticClass: _vm._$g("10-" + $30, "sc"),
-                              staticStyle: { "margin-right": "20rpx" },
-                              attrs: { _i: "10-" + $30 }
-                            },
-                            [_vm._v(_vm._$g("10-" + $30, "t0-0"))]
+                      _vm._$g("8-" + $30, "i")
+                        ? _c(
+                            "v-uni-view",
+                            { attrs: { _i: "8-" + $30 } },
+                            [
+                              _c(
+                                "v-uni-text",
+                                {
+                                  staticClass: _vm._$g("9-" + $30, "sc"),
+                                  attrs: { _i: "9-" + $30 }
+                                },
+                                [_vm._v("风险点：")]
+                              ),
+                              _c(
+                                "v-uni-text",
+                                {
+                                  staticClass: _vm._$g("10-" + $30, "sc"),
+                                  staticStyle: { "margin-right": "20rpx" },
+                                  attrs: { _i: "10-" + $30 }
+                                },
+                                [_vm._v(_vm._$g("10-" + $30, "t0-0"))]
+                              )
+                            ],
+                            1
                           )
-                        ],
-                        1
-                      ),
+                        : _vm._e(),
                       _c(
                         "v-uni-view",
                         { attrs: { _i: "11-" + $30 } },
@@ -4463,7 +4471,10 @@ var render = function() {
             "font-size": "xx-large",
             position: "fixed",
             right: "5%",
-            bottom: "12%"
+            bottom: "12%",
+            display: "flex",
+            "align-items": "center",
+            "justify-content": "center"
           },
           attrs: { _i: 17 },
           on: {
@@ -4566,7 +4577,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/latency/latency/latency.wxss */\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/latency/latency/latency.wxss */\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -4813,7 +4824,10 @@ var render = function() {
             "font-size": "xx-large",
             position: "fixed",
             right: "5%",
-            bottom: "12%"
+            bottom: "12%",
+            display: "flex",
+            "align-items": "center",
+            "justify-content": "center"
           },
           attrs: { _i: 17 },
           on: {
@@ -4916,7 +4930,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/latency/solution/solution.wxss */\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/latency/solution/solution.wxss */\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -15814,24 +15828,26 @@ var render = function() {
                   }
                 },
                 [
-                  _c(
-                    "v-uni-view",
-                    {
-                      staticClass: _vm._$g("5-" + $30, "sc"),
-                      attrs: { _i: "5-" + $30 }
-                    },
-                    [
-                      _c(
-                        "v-uni-text",
+                  _vm._$g("5-" + $30, "i")
+                    ? _c(
+                        "v-uni-view",
                         {
-                          staticClass: _vm._$g("6-" + $30, "sc"),
-                          attrs: { _i: "6-" + $30 }
+                          staticClass: _vm._$g("5-" + $30, "sc"),
+                          attrs: { _i: "5-" + $30 }
                         },
-                        [_vm._v(_vm._$g("6-" + $30, "t0-0"))]
+                        [
+                          _c(
+                            "v-uni-text",
+                            {
+                              staticClass: _vm._$g("6-" + $30, "sc"),
+                              attrs: { _i: "6-" + $30 }
+                            },
+                            [_vm._v(_vm._$g("6-" + $30, "t0-0"))]
+                          )
+                        ],
+                        1
                       )
-                    ],
-                    1
-                  ),
+                    : _vm._e(),
                   _c(
                     "v-uni-view",
                     {
@@ -15840,30 +15856,32 @@ var render = function() {
                       attrs: { _i: "7-" + $30 }
                     },
                     [
-                      _c(
-                        "v-uni-view",
-                        { attrs: { _i: "8-" + $30 } },
-                        [
-                          _c(
-                            "v-uni-text",
-                            {
-                              staticClass: _vm._$g("9-" + $30, "sc"),
-                              attrs: { _i: "9-" + $30 }
-                            },
-                            [_vm._v("风险点：")]
-                          ),
-                          _c(
-                            "v-uni-text",
-                            {
-                              staticClass: _vm._$g("10-" + $30, "sc"),
-                              staticStyle: { "margin-right": "20rpx" },
-                              attrs: { _i: "10-" + $30 }
-                            },
-                            [_vm._v(_vm._$g("10-" + $30, "t0-0"))]
+                      _vm._$g("8-" + $30, "i")
+                        ? _c(
+                            "v-uni-view",
+                            { attrs: { _i: "8-" + $30 } },
+                            [
+                              _c(
+                                "v-uni-text",
+                                {
+                                  staticClass: _vm._$g("9-" + $30, "sc"),
+                                  attrs: { _i: "9-" + $30 }
+                                },
+                                [_vm._v("风险点：")]
+                              ),
+                              _c(
+                                "v-uni-text",
+                                {
+                                  staticClass: _vm._$g("10-" + $30, "sc"),
+                                  staticStyle: { "margin-right": "20rpx" },
+                                  attrs: { _i: "10-" + $30 }
+                                },
+                                [_vm._v(_vm._$g("10-" + $30, "t0-0"))]
+                              )
+                            ],
+                            1
                           )
-                        ],
-                        1
-                      ),
+                        : _vm._e(),
                       _c(
                         "v-uni-view",
                         { attrs: { _i: "11-" + $30 } },
@@ -16015,7 +16033,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/evaluate/evaluate/evaluate.wxss */\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/evaluate/evaluate/evaluate.wxss */\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -16138,24 +16156,26 @@ var render = function() {
                   }
                 },
                 [
-                  _c(
-                    "v-uni-view",
-                    {
-                      staticClass: _vm._$g("5-" + $30, "sc"),
-                      attrs: { _i: "5-" + $30 }
-                    },
-                    [
-                      _c(
-                        "v-uni-text",
+                  _vm._$g("5-" + $30, "i")
+                    ? _c(
+                        "v-uni-view",
                         {
-                          staticClass: _vm._$g("6-" + $30, "sc"),
-                          attrs: { _i: "6-" + $30 }
+                          staticClass: _vm._$g("5-" + $30, "sc"),
+                          attrs: { _i: "5-" + $30 }
                         },
-                        [_vm._v(_vm._$g("6-" + $30, "t0-0"))]
+                        [
+                          _c(
+                            "v-uni-text",
+                            {
+                              staticClass: _vm._$g("6-" + $30, "sc"),
+                              attrs: { _i: "6-" + $30 }
+                            },
+                            [_vm._v(_vm._$g("6-" + $30, "t0-0"))]
+                          )
+                        ],
+                        1
                       )
-                    ],
-                    1
-                  ),
+                    : _vm._e(),
                   _c(
                     "v-uni-view",
                     {
@@ -16164,30 +16184,32 @@ var render = function() {
                       attrs: { _i: "7-" + $30 }
                     },
                     [
-                      _c(
-                        "v-uni-view",
-                        { attrs: { _i: "8-" + $30 } },
-                        [
-                          _c(
-                            "v-uni-text",
-                            {
-                              staticClass: _vm._$g("9-" + $30, "sc"),
-                              attrs: { _i: "9-" + $30 }
-                            },
-                            [_vm._v("风险点：")]
-                          ),
-                          _c(
-                            "v-uni-text",
-                            {
-                              staticClass: _vm._$g("10-" + $30, "sc"),
-                              staticStyle: { "margin-right": "20rpx" },
-                              attrs: { _i: "10-" + $30 }
-                            },
-                            [_vm._v(_vm._$g("10-" + $30, "t0-0"))]
+                      _vm._$g("8-" + $30, "i")
+                        ? _c(
+                            "v-uni-view",
+                            { attrs: { _i: "8-" + $30 } },
+                            [
+                              _c(
+                                "v-uni-text",
+                                {
+                                  staticClass: _vm._$g("9-" + $30, "sc"),
+                                  attrs: { _i: "9-" + $30 }
+                                },
+                                [_vm._v("风险点：")]
+                              ),
+                              _c(
+                                "v-uni-text",
+                                {
+                                  staticClass: _vm._$g("10-" + $30, "sc"),
+                                  staticStyle: { "margin-right": "20rpx" },
+                                  attrs: { _i: "10-" + $30 }
+                                },
+                                [_vm._v(_vm._$g("10-" + $30, "t0-0"))]
+                              )
+                            ],
+                            1
                           )
-                        ],
-                        1
-                      ),
+                        : _vm._e(),
                       _c(
                         "v-uni-view",
                         { attrs: { _i: "11-" + $30 } },
@@ -20579,7 +20601,10 @@ var render = function() {
             "font-size": "xx-large",
             position: "fixed",
             right: "5%",
-            bottom: "12%"
+            bottom: "12%",
+            display: "flex",
+            "align-items": "center",
+            "justify-content": "center"
           },
           attrs: { _i: 17 },
           on: {
@@ -20682,7 +20707,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/latency/solution/solution.wxss */\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/latency/solution/solution.wxss */\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -20929,7 +20954,10 @@ var render = function() {
             "font-size": "xx-large",
             position: "fixed",
             right: "5%",
-            bottom: "12%"
+            bottom: "12%",
+            display: "flex",
+            "align-items": "center",
+            "justify-content": "center"
           },
           attrs: { _i: 17 },
           on: {
@@ -21032,7 +21060,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/latency/latency/latency.wxss */\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/latency/latency/latency.wxss */\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -21833,7 +21861,10 @@ var render = function() {
             "font-size": "xx-large",
             position: "fixed",
             right: "5%",
-            bottom: "12%"
+            bottom: "12%",
+            display: "flex",
+            "align-items": "center",
+            "justify-content": "center"
           },
           attrs: { _i: 30 },
           on: {
@@ -21936,7 +21967,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/latency/latency/plan/plan.wxss */\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* pages/latency/latency/plan/plan.wxss */\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -22242,7 +22273,10 @@ var render = function() {
                         color: "white",
                         width: "60rpx",
                         height: "60rpx",
-                        padding: "0"
+                        padding: "0",
+                        display: "flex",
+                        "align-items": "center",
+                        "justify-content": "center"
                       },
                       attrs: {
                         "data-index": _vm._$g("33-" + $30, "a-data-index"),
@@ -22291,7 +22325,10 @@ var render = function() {
                     width: "60rpx",
                     height: "60rpx",
                     padding: "0",
-                    "font-size": "large"
+                    "font-size": "large",
+                    display: "flex",
+                    "align-items": "center",
+                    "justify-content": "center"
                   },
                   attrs: { _i: 36 },
                   on: {

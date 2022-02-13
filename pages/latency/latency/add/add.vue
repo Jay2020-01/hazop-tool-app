@@ -45,14 +45,14 @@
             <block v-for="(item, index) in hiddenDangerList" :key="index">
                 <view class="cu-form-group">
                     <text style="flex: 1">{{ item }}</text>
-                    <button style="border-radius: 50%; background-color: #3388bb; color: white; width: 60rpx; height: 60rpx; padding: 0" @tap="deleteFun" :data-index="index">
+                    <button style="border-radius: 50%; background-color: #3388bb; color: white; width: 60rpx; height: 60rpx; padding: 0;  display: flex; align-items: center; justify-content: center;" @tap="deleteFun" :data-index="index">
                         -
                     </button>
                 </view>
             </block>
             <view class="cu-form-group">
                 <picker mode="selector" :range="hiddenDangerRange" @change="setHiddenDanger">{{ hiddenDanger }}</picker>
-                <button style="border-radius: 50%; background-color: #3388bb; color: white; width: 60rpx; height: 60rpx; padding: 0; font-size: large" @tap="add">+</button>
+                <button style="border-radius: 50%; background-color: #3388bb; color: white; width: 60rpx; height: 60rpx; padding: 0; font-size: large; display: flex; align-items: center; justify-content: center;" @tap="add">+</button>
             </view>
         </form>
         <button style="position: relative; left: 0rpx; margin-top: 100rpx; margin-bottom: 50rpx; background-color: #33cc99; color: white" @tap="submit">提 交</button>
