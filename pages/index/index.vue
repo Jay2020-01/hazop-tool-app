@@ -9,25 +9,26 @@
         <view class="cu-bar tabbar bg-white shadow foot">
             <view class="action" @tap="NavChange" data-cur="mainPage">
                 <view class="cuIcon-cu-image">
-                    <image :src="'/img/mainPage' + (PageCur == 'mainPage' ? '_cur' : '') + '/static/pages/index/.png'"></image>
+					<!-- change by J -->
+                    <image :src="'/static/img/mainPage' + (PageCur == 'mainPage' ? '_cur' : '') + '.png'"></image>
                 </view>
                 <view :class="PageCur == 'mainPage' ? 'text-green' : 'text-gray'">首页</view>
             </view>
             <view class="action" @tap="NavChange" data-cur="risk">
                 <view class="cuIcon-cu-image">
-                    <image :src="'/img/project' + (PageCur == 'risk' ? '_cur' : '') + '/static/pages/index/.png'"></image>
+                    <image :src="'/static/img/project' + (PageCur == 'risk' ? '_cur' : '') + '.png'"></image>
                 </view>
                 <view :class="PageCur == 'risk' ? 'text-green' : 'text-gray'">风险分级</view>
             </view>
             <view class="action" @tap="NavChange" data-cur="latency">
                 <view class="cuIcon-cu-image">
-                    <image :src="'/img/assess' + (PageCur == 'latency' ? '_cur' : '') + '/static/pages/index/.png'"></image>
+                    <image :src="'/static/img/assess' + (PageCur == 'latency' ? '_cur' : '') + '.png'"></image>
                 </view>
                 <view :class="PageCur == 'latency' ? 'text-green' : 'text-gray'">隐患排查</view>
             </view>
             <view class="action" @tap="NavChange" data-cur="about">
                 <view class="cuIcon-cu-image">
-                    <image :src="'/img/about' + (PageCur == 'about' ? '_cur' : '') + '/static/pages/index/.png'"></image>
+                    <image :src="'/static/img/about' + (PageCur == 'about' ? '_cur' : '') + '.png'"></image>
                 </view>
                 <view :class="PageCur == 'about' ? 'text-green' : 'text-gray'">我的</view>
             </view>

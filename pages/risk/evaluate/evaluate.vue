@@ -42,7 +42,7 @@ export default {
         return {
             units: [],
             points: [],
-            projects: []
+            projects: [],
         };
     },
     options: {

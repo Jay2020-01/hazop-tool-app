@@ -10,6 +10,7 @@ export default {
         logs.unshift(Date.now());
         uni.setStorageSync('logs', logs); // 登录
 
+		// #ifdef MP-WEIXIN
         uni.login({
             success: (res) => {
                 // 发送 res.code 到后台换取 openId, sessionKey, unionId
@@ -34,6 +35,7 @@ export default {
                 }
             }
         });
+		// #endif
     },
     globalData: {
         userInfo: null,

@@ -52,7 +52,9 @@ const app = getApp();
 export default {
     data() {
         return {
-            projects: []
+            projects: [],
+			// add by J
+			item: "",
         };
     },
     options: {
