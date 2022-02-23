@@ -1,1 +1,0 @@
-<view><map style="{{('width: '+map_width+'px; height: '+map_height+'px;')}}" id="myMap" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" covers="{{covers}}" show-location="{{true}}"></map></view>

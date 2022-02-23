@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "latency": "/pages/latency/latency/latency",
-    "solution": "/pages/latency/solution/solution",
-    "result": "/pages/latency/result/result"
-  }
-}
