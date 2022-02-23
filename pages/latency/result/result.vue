@@ -34,7 +34,8 @@ export default {
     data() {
         return {
             latency_list: [],
-            typeList: ['消防设备的配备', '双回路供电', '危险化学品使用']
+            typeList: ['消防设备的配备', '双回路供电', '危险化学品使用'],
+			item: "",
         };
     },
     options: {

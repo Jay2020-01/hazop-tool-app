@@ -5,11 +5,11 @@
             <view class="cu-item">
                 <view class="cu-avatar round lg" style="background-image: url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg)"></view>
                 <navigator class="content" style="display: flex; flex-direction: column" url="/pages/project/projectBasicInfo/projectBasicInfo" hover-class="none">
-                    <view class="text-grey">
+                    <view class="text-grey" v-if="projects[index]">
                         <text class="text-cut">{{ projects[index].name }}</text>
                     </view>
                     <view class="text-gray text-sm flex" style="display: block">
-                        <view>
+                        <view v-if="points[index]">
                             <text class="text-cut">风险点：</text>
                             <text class="text-cut" style="margin-right: 20rpx">{{ points[index].name }}</text>
                         </view>
